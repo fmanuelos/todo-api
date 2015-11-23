@@ -1,0 +1,33 @@
+{
+  "name": "todo-api",
+  "version": "0.0.1",
+  "description": "The todo-api Backend Project in Nodejs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "make test"
+  },
+  "private": true,
+  "author": "MIT",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "connect-roles": "^3.1.1",
+    "cookie-parser": "^1.4.0",
+    "express": "^4.13.3",
+    "express-validator": "^2.18.0",
+    "lodash": "^3.10.1",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.2.7",
+    "morgan": "^1.6.1",
+    "passport": "^0.3.2",
+    "passport-http-bearer": "^1.0.1",
+    "winston": "^2.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "chai-as-promised": "^5.1.0",
+    "mocha": "^2.3.4",
+    "supertest": "^1.1.0",
+    "supertest-as-promised": "^2.0.2"
+  }
+}
